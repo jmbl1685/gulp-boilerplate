@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow-x: hidden;
+  font-size: 100%;
+  color: #3E3E3E; }
+
+.wallpaper {
+  background-image: url("../img/wallpaper.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.title {
+  font-family: 'Poppins';
+  font-size: 7vh;
+  color: #FFFFFF; }
+
+.text-center {
+  text-align: center; }
+
+.center {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.black-margin {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
+
+/* Animations */
+.animated {
+  animation-duration: 0.6s;
+  animation-fill-mode: both; }
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0); }
+  to {
+    opacity: 1;
+    transform: none; } }
+
+.fadeInRight {
+  animation-name: fadeInRight;
+  transition: 0s; }
